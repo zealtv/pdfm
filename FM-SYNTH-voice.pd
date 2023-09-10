@@ -1,0 +1,18 @@
+#N canvas 0 37 1162 891 12;
+#X obj 288 566 *~ 0.75;
+#X obj 288 601 clip~ -0.9 0.9;
+#X text 981 29 Combine into single FM operator patch;
+#X text 1141 1514 comment;
+#X obj 279 125 fm-operator;
+#X obj 453 125 fm-operator;
+#X obj 639 124 fm-operator;
+#X obj 548 47 inlet;
+#X obj 291 641 outlet~;
+#X connect 0 0 1 0;
+#X connect 1 0 8 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 1;
+#X connect 6 0 5 1;
+#X connect 7 0 4 0;
+#X connect 7 0 5 0;
+#X connect 7 0 6 0;
