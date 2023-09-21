@@ -1,4 +1,4 @@
-#N canvas 120 37 1162 891 12;
+#N canvas 49 191 1296 695 12;
 #X obj 841 375 output~;
 #X floatatom 75 185 5 0 0 0 - - - 0;
 #X obj 280 515 *~ 0.75;
@@ -11,7 +11,7 @@
 #X text 981 29 Combine into single FM operator patch;
 #X obj 62 69 notein;
 #X obj 60 111 pack;
-#X obj 65 445 s notepair;
+#X obj 75 434 s notepair;
 #X obj 74 308 pack, f 11;
 #X obj 281 60 r notepair;
 #X obj 841 171 util.scope~;
@@ -21,11 +21,14 @@
 #X obj 453 524 util.scope~;
 #X obj 700 523 util.scope~;
 #X obj 279 125 fm-operator;
-#A saved 130.813 1 1 1 0 0.336134 0 1 0 0 0 0 1;
+#A saved 82.4069 1 1 1 0 0.336134 0 0.355932 0 0 0 0 1;
 #X obj 453 125 fm-operator;
-#A saved 130.813 1 4 1 0 0.193277 0 1 0 0 0.319328 0.260504 0.991597;
+#A saved 82.4069 1 4 1 0 0.193277 0 1 0 0 0.319328 0.260504 0.991597;
 #X obj 639 124 fm-operator;
-#A saved 130.813 1 5 1 0 0 0 0.508475 0 0 0 0 1;
+#A saved 82.4069 1 5 1 0 0 0 0.508475 0 0 0 0 1;
+#X msg 97 399 40 \$1;
+#X obj 99 342 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 97 370 * 80;
 #X connect 1 0 18 0;
 #X connect 2 0 7 0;
 #X connect 4 0 15 0;
@@ -37,8 +40,6 @@
 #X connect 11 0 17 0;
 #X connect 13 0 12 0;
 #X connect 14 0 21 0;
-#X connect 14 0 22 0;
-#X connect 14 0 23 0;
 #X connect 15 0 0 0;
 #X connect 17 1 1 0;
 #X connect 17 2 6 0;
@@ -48,3 +49,6 @@
 #X connect 22 0 19 0;
 #X connect 23 0 22 1;
 #X connect 23 0 20 0;
+#X connect 24 0 12 0;
+#X connect 25 0 26 0;
+#X connect 26 0 24 0;

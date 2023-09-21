@@ -1,4 +1,4 @@
-#N canvas 238 261 612 672 10;
+#N canvas 639 126 799 761 10;
 #X msg 111 172 0;
 #X obj 12 156 unpack f f;
 #X obj 96 266 +;
@@ -83,8 +83,7 @@
 #X text 177 331 https://github.com/enzienaudio/heavylib;
 #X text 167 311 from the heavylib;
 #X text 177 191 https://github.com/MikeMorenoAudio;
-#X text 167 221 Based on the [curve.mmb~] object from the mmb library
-;
+#X text 167 221 Based on the [curve.mmb~] object from the mmb library;
 #X obj 322 509 == 0;
 #X msg 322 555 1 \$1;
 #X obj 322 576 -;
@@ -126,9 +125,9 @@
 #X text 277 68 Sustain;
 #X msg 332 109 \$1 0;
 #X msg 142 130 \$2 \$1;
-#X obj 450 15 loadbang;
-#X obj 450 36 pack \$1 \$2 \$3 \$4 \$5 \$6;
-#X obj 450 57 unpack f f f f f f;
+#X obj 463 67 loadbang;
+#X obj 463 88 pack \$1 \$2 \$3 \$4 \$5 \$6;
+#X obj 463 109 unpack f f f f f f;
 #X connect 0 0 5 1;
 #X connect 0 0 2 1;
 #X connect 1 0 7 0;
