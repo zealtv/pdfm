@@ -1,4 +1,4 @@
-#N canvas 453 306 791 504 12;
+#N canvas 724 310 791 504 12;
 #X text 175 26 \$1: parent \$0;
 #X text 174 45 \$2: label;
 #X obj 15 268 t b f, f 13;
@@ -13,7 +13,7 @@
 #X text 174 175 recv: \$0-to-[label];
 #X text 175 82 binds to a ui element in parent patch with sends and receives as so:, f 20;
 #X text 174 6 arguments:;
-#X obj 13 10 hsl 141 20 0 1 0 0 \$1-get-\$2 \$1-set-\$2 thisParam:0.728 3 10 0 10 #fcfcfc #bbbbbb #000000 0 1;
+#X obj 13 10 hsl 141 20 0 1 0 0 \$1-get-\$2 \$1-set-\$2 :0 3 10 0 10 #e3c6ff #c6feff #000000 0 1;
 #X obj 458 430 s \$1-params;
 #X obj 535 345 f;
 #X obj 458 383 pack s f;
