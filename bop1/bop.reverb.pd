@@ -1,10 +1,10 @@
-#N canvas 494 75 976 772 10;
+#N canvas 32 67 976 772 10;
 #X obj 870 35 inlet~ left;
 #X obj 963 35 inlet~ right;
 #X obj 1350 100 inlet note;
 #X obj 1450 100 inlet ctl;
-#X obj 1010 450 outlet~ left;
-#X obj 1126 449 outlet~ right;
+#X obj 970 452 outlet~ left;
+#X obj 1086 451 outlet~ right;
 #X obj 1350 300 outlet note;
 #X obj 1450 300 outlet ctl;
 #X obj 480 280 savestate, f 11;
@@ -34,7 +34,7 @@
 #X obj 590 680 s to-wet-\$0;
 #X obj 568 127 r from-wet-\$0;
 #X obj 540 430 s to-wet-\$0;
-#X obj 110 200 hsl 185 15 0.01 1 1 1 from-dry-\$0 to-dry-\$0 dry:0.33246 5 5 0 10 #fcfcfc #000000 #000000 14000 1;
+#X obj 110 200 hsl 185 15 0.01 1 1 1 from-dry-\$0 to-dry-\$0 dry:0.637306 5 5 0 10 #fcfcfc #000000 #000000 16600 1;
 #X obj 770 620 s to-freeverb-\$0;
 #X obj 760 560 r from-dry-\$0;
 #X msg 770 590 dry \$1;
