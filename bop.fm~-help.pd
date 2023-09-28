@@ -1,9 +1,9 @@
-#N canvas 88 123 565 626 12;
+#N canvas 360 222 565 626 12;
 #X text 32 127 MIDI and messages >;
 #X text 354 130 < FM signal;
 #X text 80 472 Signal out >;
 #X text 346 474 < Dump MIDI and messages;
-#N canvas 608 92 606 696 fm-example 1;
+#N canvas 608 92 606 696 fm-example 0;
 #X obj 22 621 output~;
 #X obj 22 414 bop.scope~;
 #A saved enable 1;
@@ -22,8 +22,8 @@
 #A saved a 0;
 #A saved s 1;
 #A saved r 0;
-#A saved lfo-depth 0;
-#A saved lfo-speed 0;
+#A saved lfo-depth 0.428571;
+#A saved lfo-speed 0.185714;
 #A saved gain 1;
 #X obj 219 54 bop.fm~;
 #A saved keytrack 1;
@@ -80,7 +80,7 @@
 #A saved a 0;
 #A saved s 1;
 #A saved r 0;
-#A saved lfo-depth 0.5;
-#A saved lfo-speed 0.35;
+#A saved lfo-depth 0.457143;
+#A saved lfo-speed 0.421429;
 #A saved gain 1;
 #X connect 8 0 7 0;
