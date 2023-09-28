@@ -19,7 +19,7 @@
 #X obj 348 310 outlet;
 #X obj 369 215 route list, f 12;
 #X obj 94 60 bop.p.toggle \$0 keytrack;
-#N canvas 0 37 1470 891 fm 1;
+#N canvas 0 37 1470 891 fm 0;
 #X obj 416 326 *~;
 #X obj 275 112 +~;
 #X obj 326 171 *~;
@@ -81,6 +81,7 @@
 #X obj 202 452 *~ 20;
 #X obj 223 547 r~ \$0-get-lfo-depth;
 #X obj 113 916 r~ \$0-get-gain;
+#X msg 902 399 \$1 0;
 #X connect 0 0 7 1;
 #X connect 1 0 2 0;
 #X connect 1 0 3 0;
@@ -115,7 +116,7 @@
 #X connect 29 0 24 0;
 #X connect 30 0 26 5;
 #X connect 31 0 25 0;
-#X connect 33 0 41 0;
+#X connect 33 0 61 0;
 #X connect 34 0 33 0;
 #X connect 35 0 34 0;
 #X connect 35 1 37 0;
@@ -143,6 +144,7 @@
 #X connect 58 0 10 0;
 #X connect 59 0 11 1;
 #X connect 60 0 15 1;
+#X connect 61 0 41 0;
 #X restore 233 244 pd fm;
 #X f 8;
 #X obj 396 148 inlet~, f 12;

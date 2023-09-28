@@ -1,4 +1,4 @@
-#N canvas 693 187 751 624 12;
+#N canvas 860 156 751 624 12;
 #X text 525 53 \$1: parent \$0;
 #X obj 125 455 route \$2;
 #X text 523 213 send: \$0-from-[label];
@@ -12,7 +12,7 @@
 #X obj 289 83 r \$1-savestate;
 #X obj 289 125 t b b;
 #X obj 125 421 r \$1-params;
-#X obj 10 10 nbx 5 20 -1e+37 1e+37 0 0 \$1-get-\$2 \$1-set-\$2 empty 60 10 0 10 #c6feff #000000 #000000 0 256;
+#X obj 10 10 nbx 5 20 -1e+37 1e+37 0 0 \$1-get-\$2 \$1-set-\$2 frequency 60 10 0 10 #c6feff #000000 #000000 0 256;
 #X obj 28 85 loadbang;
 #X msg 28 185 label \$1;
 #X obj 28 150 symbol \$2;
@@ -27,7 +27,7 @@
 #X obj 34 536 s~ \$1-get-\$2;
 #X obj 33 373 r \$1-get-\$2;
 #X text 120 371 receives value from slider;
-#X msg 34 441 \$1 100;
+#X msg 34 441 \$1 10;
 #X connect 1 0 23 0;
 #X connect 1 0 24 0;
 #X connect 7 0 8 1;
