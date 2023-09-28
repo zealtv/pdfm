@@ -1,4 +1,5 @@
 #N canvas 159 101 1022 597 10;
+#X declare -path ./bop.p;
 #X obj 711 299 r \$0-scalelist;
 #X obj 879 388 s \$0-getscale;
 #X obj 879 358 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
@@ -234,6 +235,7 @@
 #X text 442 179 < MIDI and messages dump out of right, f 13;
 #X text 304 143 Signal out of left >, f 9;
 #X text 433 129 < midi and messages;
+#X obj 305 56 declare -path ./bop.p;
 #X connect 0 0 5 0;
 #X connect 2 0 1 0;
 #X connect 3 0 4 0;
