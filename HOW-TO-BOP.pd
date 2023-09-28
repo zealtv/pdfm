@@ -27,6 +27,6 @@
 #X obj 492 72 bop.scope~;
 #A saved enable 1;
 #X obj 332 553 bop.sampler;
-#A saved  -0.011236 -0.134831 0 1 0 4.24386 1;
+#A saved  -0.134831 0 1 0 0 1 1;
 #X text 75 19 bop2 CHECK OUT HELP PATCHES:;
 #X text 53 482 declare to access old bop mobules;
