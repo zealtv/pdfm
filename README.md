@@ -1,3 +1,5 @@
+## 🦉 Note: an updated version of this abstraction can be found in [bop](https://github.com/zealtv/bop)
+
 # pdfm
 A flexible FM operator for Pure Data
 
